@@ -1,11 +1,11 @@
 package org.example;
 
 
-import org.example.annotations.TestClass;
+import org.example.annotations.Test;
 
-public class Test {
+public class TestClass {
 
-    @TestClass
+    @Test
     public void Func1()  {
         System.out.println("func1");
     }
